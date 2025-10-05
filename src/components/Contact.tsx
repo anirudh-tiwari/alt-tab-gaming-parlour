@@ -29,7 +29,7 @@ export const Contact = () => {
             {/* Early Bird Offer Banner */}
             <div className={`bg-gradient-to-r from-secondary/30 via-accent/30 to-primary/30 backdrop-blur-md border-2 border-secondary/60 rounded-2xl p-4 md:p-6 shadow-2xl mb-8 animate-pulse-slow`}>
               <p className="text-xl sm:text-2xl md:text-3xl font-extrabold text-foreground leading-relaxed mb-2">
-                🎁 <span className="text-secondary">Exclusive for Early Gamers</span> – <span className="text-accent">50% OFF</span> if you join the WhatsApp group
+                🎁 <span className="text-secondary">Exclusive for Early Gamers</span> <span className="text-accent">50% OFF</span> if you join the WhatsApp group
               </p>
               <p className="text-sm sm:text-base md:text-lg font-bold text-primary">
                 ⚡ Only first 100 students get this early bird deal
@@ -39,7 +39,7 @@ export const Contact = () => {
             <div>
               <Button 
                 variant="hero" 
-                size="xl" 
+                size="lg" 
                 className={`mb-12`}
                 onClick={() => window.open('https://chat.whatsapp.com/your-group-link', '_blank')}
               >

@@ -3,7 +3,7 @@ import { MessageCircle, Sparkles } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section id="hero" className="relative overflow-hidden pt-40 pb-16 md:pt-48 md:pb-20">
+    <section id="hero" className="relative overflow-hidden min-h-screen flex items-center pt-20 pb-16 md:pt-24 md:pb-20">
       {/* Powerful Gaming Cafe Image Background */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -15,7 +15,7 @@ export const Hero = () => {
       </div>
 
       <div className="container relative z-10 mx-auto px-4">
-        <div className="text-center max-w-4xl mx-auto space-y-8">
+        <div className="text-center max-w-4xl mx-auto space-y-12 md:space-y-16">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight animate-slide-in-left" style={{ animationDelay: '100ms' }}>
             Alt + Tab <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
@@ -32,7 +32,7 @@ export const Hero = () => {
             <span className="text-primary">gaming</span> + <span className="text-secondary">snacks</span> + <span className="text-accent">vibes</span>
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center animate-slide-in-right" style={{ animationDelay: '400ms' }}>
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center animate-slide-in-right pt-4 md:pt-6" style={{ animationDelay: '400ms' }}>
             <Button
               variant="hero"
               size="lg"
@@ -46,7 +46,7 @@ export const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '500ms' }}>
+          <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto animate-fade-in pt-6 md:pt-8" style={{ animationDelay: '500ms' }}>
             <div className="text-center">
               <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-1">4</div>
               <div className="text-xs sm:text-sm text-muted-foreground">Consoles</div>
