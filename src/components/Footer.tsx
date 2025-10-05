@@ -19,14 +19,11 @@ export const Footer = () => {
   
   return (
     <footer className="bg-card border-t border-primary/20">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-4">
         {/* Follow Us Section */}
-        <div ref={socialRef} className={`flex flex-col items-center justify-center mb-6 ${socialVisible ? 'animate-slide-in-left' : 'opacity-0'}`}>
+        {/* <div ref={socialRef} className={`flex flex-col items-center justify-center mb-6 ${socialVisible ? 'animate-slide-in-left' : 'opacity-0'}`}>
           <h4 className="font-semibold mb-4 text-lg">Follow Us</h4>
           <div className="flex gap-4">
-            {/* <a href="#" className="p-2 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors">
-              <Facebook className="w-5 h-5 text-primary" />
-            </a> */}
             <a href="#" className="p-2 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors">
               <Twitter className="w-5 h-5 text-primary" />
             </a>
@@ -40,11 +37,11 @@ export const Footer = () => {
               <WhatsAppIcon className="w-5 h-5 text-primary" />
             </a>
           </div>
-        </div>
+        </div> */}
         
         {/* Copyright Section */}
-        <div ref={copyrightRef} className={`border-t border-primary/20 pt-6 text-center text-sm text-muted-foreground ${copyrightVisible ? 'animate-slide-in-right' : 'opacity-0'}`} style={{ animationDelay: '200ms' }}>
-          <p>&copy; 2025 GameZone. All rights reserved. Made for students, by students.</p>
+        <div ref={copyrightRef} className={`border-primary/20 text-center text-sm text-muted-foreground ${copyrightVisible ? 'animate-slide-in-right' : 'opacity-0'}`} style={{ animationDelay: '200ms' }}>
+          <p>&copy; 2025 AltTab. All rights reserved. Made for students, by students.</p>
         </div>
       </div>
     </footer>

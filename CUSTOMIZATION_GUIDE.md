@@ -8,7 +8,7 @@ Replace the placeholder WhatsApp link in these files:
 - `src/components/Features.tsx` (line 92)
 - `src/components/Contact.tsx` (line 61)
 
-**Current:** `https://chat.whatsapp.com/your-group-link`
+**Current:** `https://chat.whatsapp.com/JbhnLvJpivPLRxeNU8zm3l`
 **Replace with:** Your actual WhatsApp group invite link
 
 ### 2. **Google Form for Student Survey**

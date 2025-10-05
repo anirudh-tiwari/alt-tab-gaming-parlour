@@ -37,7 +37,7 @@ export const Hero = () => {
               variant="hero"
               size="lg"
               className="group w-auto text-base md:text-lg px-6"
-              onClick={() => window.open('https://chat.whatsapp.com/your-group-link', '_blank')}
+              onClick={() => window.open('https://chat.whatsapp.com/JbhnLvJpivPLRxeNU8zm3l', '_blank')}
             >
                Unlock Early Access
               <span className="text-2xl mr-2">

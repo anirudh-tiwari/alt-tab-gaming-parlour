@@ -17,7 +17,7 @@ const allFeatures = [
     emoji: "🍔",
   },
   {
-    title: "Chill Zone & Lounge",
+    title: "Chill Zone",
     description: "Comfortable seating area with cozy sofas to hang out, chat with friends, take breaks, and relax between gaming sessions",
     image: "/chill.jpeg",
     gradient: "from-secondary/20 to-transparent",
