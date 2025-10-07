@@ -105,7 +105,7 @@ Replace in 4 files:
 - `src/components/Contact.tsx`
 - `src/components/Navbar.tsx`
 
-**Find:** `https://chat.whatsapp.com/JbhnLvJpivPLRxeNU8zm3l`
+**Find:** `https://whatsapp.com/channel/0029VbBIJjFDuMRhnJxs6K1V`
 **Replace with:** Your actual WhatsApp invite link
 
 ### 2. Google Form

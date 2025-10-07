@@ -6,7 +6,7 @@ export const Hero = () => {
     <section id="hero" className="relative overflow-hidden min-h-screen flex items-center pt-20 pb-16 md:pt-24 md:pb-20">
       {/* Powerful Gaming Cafe Image Background */}
       <div className="absolute inset-0 z-0">
-        <img 
+        <img
           src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1920&h=1080&fit=crop"
           alt="Gaming Cafe Vibe"
           className="w-full h-full object-cover"
@@ -37,7 +37,7 @@ export const Hero = () => {
               variant="hero"
               size="lg"
               className="group w-auto text-base md:text-lg px-6"
-              onClick={() => window.open('https://chat.whatsapp.com/JbhnLvJpivPLRxeNU8zm3l', '_blank')}
+              onClick={() => window.open('https://whatsapp.com/channel/0029VbBIJjFDuMRhnJxs6K1V', '_blank')}
             >
                Unlock Early Access
               <span className="text-2xl mr-2">
